@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ui_shooping/advicewall.dart';
+import 'package:ui_shooping/askadvice.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
       
       ),
-      home: Advicewall(),//HomePage(),
+      home: AskAdvice(),//Advicewall(),//HomePage(),
     );
   }
 }
